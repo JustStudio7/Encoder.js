@@ -1,7 +1,7 @@
 ![Preview](.github/image.png)
-# Encoder.js
+# Encoder.js <img src="https://img.shields.io/github/license/juststudio7/encoder.js?label=License" align="center" alt="License" />
 **Text encoder & decoder 🔐**<br/>
-Status: [![Deploy](https://github.com/JustStudio7/Encoder/actions/workflows/publish.yml/badge.svg)](https://github.com/JustStudio7/Encoder/actions/workflows/publish.yml)<br/>
+Status: <img src="https://img.shields.io/github/actions/workflow/status/juststudio7/encoder.js/publish.yml?label=Deploy" align="center" alt="GitHub Pages Deploy Status" />
 
 ---------
 ## Translators
@@ -19,4 +19,4 @@ Status: [![Deploy](https://github.com/JustStudio7/Encoder/actions/workflows/publ
 [@GarikHappy](https://github.com/GarikHappy)
 
 ---------
-Website uses <a href="https://nextjs.org/" target="_blank">`Next.js`</a>; <a href="https://react.dev/" target="_blank">`React.js`</a>; `404.html` by <a href="https://justdeveloper.is-a.dev/" target="_blank">JustDeveloper</a>.<br/>
+Website uses <a href="https://nextjs.org/" target="_blank">`Next.js`</a>; <a href="https://react.dev/" target="_blank">`React.js`</a>; <a href="https://just.is-a.dev/" target="_blank">`Just an Ultimate Site Tool`</a>.<br/>
