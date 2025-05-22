@@ -813,10 +813,11 @@ function decode5 (text, key) {
   const datachar = input_.slice(0,1);
   const nodatachar = input_.slice(1);
   let output_;
+  const numOut = numDecode(text);
   if (datachar == 'J') {
     output_ = decode4(decode4(nodatachar, key), key);
-  } else if (datachar == 'U' || datachar == 'u' || datachar == 'Q' || datachar == 'q') {
-    output_ = numDecode(text);
+  } else if ((datachar == 'U' || datachar == 'u' || datachar == 'Q' || datachar == 'q') && (numOut.toString().indexOf('e')==-1)) {
+    output_ = numOut;
   } else {
     output_ = decode4(input_, key);
   }
