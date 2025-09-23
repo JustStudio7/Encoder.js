@@ -67,9 +67,7 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: _just
-        uses: js-just/latest@main
-        with:
-          postprocessor-version: "24"
+        uses: js-just/_just@v0.0.29
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
